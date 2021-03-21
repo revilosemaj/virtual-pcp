@@ -1,0 +1,87 @@
+.hide {
+  display: none;
+}
+
+.column {
+  height: 100vh;
+
+  .register-countdown-container {
+    & a:last-child {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      padding: 5px 0;
+      text-decoration: none;
+    }
+
+    &.left {
+      background-color: #000;
+      opacity: 0.8;
+
+      .jumbotron {
+        margin: 50px 0;
+        background-color: transparent;
+        border: 2px solid gold;
+        color: #fff;
+        text-align: center;
+      }
+    }
+
+    .timer-container {
+      color: #fff;
+      text-align: center;
+
+      & h4:first-child {
+        text-align: left;
+      }
+
+      & button:last-child {
+        margin-top: 15px;
+      }
+
+      .timer {
+        font-weight: bold;
+        color: #fff;
+
+        h1 {
+          font-size: 60px;
+          margin: 0;
+          color: gold;
+        }
+
+        small {
+          font-size: 11px;
+          color: #f2f2f2;
+        }
+      }
+    }
+  }
+
+  .login-container {
+    background-color: #fff;
+    text-align: center;
+    padding: 130px;
+    margin-top: 130px;
+    border-radius: 20px;
+    width: 80%;
+
+    #formMemID {
+      font-size: 20px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    .close {
+      font-size: 100px;
+      font-weight: bold;
+      position: relative;
+      top: -180px;
+      left: 140px;
+      opacity: 1;
+      color: gold;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
